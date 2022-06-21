@@ -1,9 +1,8 @@
+import Topbar from "./components/topbar/topbar"
 
 function App() {
   return (
-    <div className="App">
-      hello dashboard
-    </div>
+    <div className="App"><Topbar/></div>
   );
 }
 
