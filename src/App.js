@@ -1,8 +1,15 @@
-import Topbar from "./components/topbar/topbar"
+import Topbar from "./components/topbar/topbar";
+import Sidebar from "./components/sidebar/sidebar";
+import "./app.css";
 
 function App() {
   return (
-    <div className="App"><Topbar/></div>
+    <div>
+      <Topbar/>
+      <div className="container">
+        <Sidebar />
+      </div>
+    </div>
   );
 }
 
